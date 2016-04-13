@@ -97,13 +97,10 @@
 		4AE784231CBEA61900DA0F95 /* tapper */ = {
 			isa = PBXGroup;
 			children = (
-				4AE784521CBEA63800DA0F95 /* New Group */,
-				4AE784241CBEA61900DA0F95 /* AppDelegate.swift */,
-				4AE784261CBEA61900DA0F95 /* ViewController.swift */,
-				4AE784281CBEA61900DA0F95 /* Main.storyboard */,
-				4AE7842B1CBEA61900DA0F95 /* Assets.xcassets */,
-				4AE7842D1CBEA61900DA0F95 /* LaunchScreen.storyboard */,
-				4AE784301CBEA61900DA0F95 /* Info.plist */,
+				4AE784551CBEA64A00DA0F95 /* Model */,
+				4AE784541CBEA64600DA0F95 /* View */,
+				4AE784531CBEA63F00DA0F95 /* Controller */,
+				4AE784521CBEA63800DA0F95 /* Utilities */,
 			);
 			path = tapper;
 			sourceTree = "<group>";
@@ -126,11 +123,38 @@
 			path = tapperUITests;
 			sourceTree = "<group>";
 		};
-		4AE784521CBEA63800DA0F95 /* New Group */ = {
+		4AE784521CBEA63800DA0F95 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4AE784241CBEA61900DA0F95 /* AppDelegate.swift */,
+				4AE784301CBEA61900DA0F95 /* Info.plist */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		4AE784531CBEA63F00DA0F95 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4AE784261CBEA61900DA0F95 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4AE784541CBEA64600DA0F95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4AE784281CBEA61900DA0F95 /* Main.storyboard */,
+				4AE7842D1CBEA61900DA0F95 /* LaunchScreen.storyboard */,
+				4AE7842B1CBEA61900DA0F95 /* Assets.xcassets */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4AE784551CBEA64A00DA0F95 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "New Group";
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
